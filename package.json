@@ -1,0 +1,22 @@
+{
+  "name": "ghost",
+  "version": "1.0.0",
+  "description": "an Instagram bot.",
+  "main": "ghost.js",
+  "dependencies": {
+    "node-inspect": "^1.11.6",
+    "puppeteer-core": "^1.19.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Ali Moghimi",
+  "license": "ISC"
+}
