@@ -13,8 +13,9 @@ const input = {
 	 userName: "avengerghost1398",
 	 Password: "ghost@for@avenge",
 
+	 hashTag: "#توریست",
 	 // hashTag: "#tourism_iran",
-	 hashTag: "#irantravel",
+	 // hashTag: "#irantravel",
 	 // hashTag: "#irantourism",
 	 // hashTag: "#ایرانگردی",
 	 // hashTag: "#اکوتوریسم",

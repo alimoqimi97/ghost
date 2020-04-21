@@ -101,7 +101,15 @@ class  Ghost
 	 	 await this.instaBot.writeInElement("[name=password]",0,this.InputInfo.Password);
 
 	 	 // 		click  on 'login' button			//
-	 	 await this.instaBot.clickOnElement("[type=submit]",0);
+		  await this.instaBot.clickOnElement("[type=submit]",0);
+		  
+		  await this.instaBot.core.Tabs[0].waitForSelector("p[role=alert]",{timeout: 4000}).then(async () => {
+			  console.log("ghost : we can't login ;)");
+			  await this.instaBot.core.Browser.close();
+			  process.exit(0);
+		  }).catch(() => {
+			  console.log("ghost : we logged in successfullly");
+		  });
 
 	 }
 
