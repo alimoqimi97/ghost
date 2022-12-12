@@ -5,7 +5,7 @@
   "main": "ghost.js",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mysql": "^2.17.1",
     "node-inspect": "^1.11.6",
     "puppeteer-core": "^1.19.0"
